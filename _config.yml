@@ -103,5 +103,12 @@ theme: next
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repository: https://github.com/LR193453/LR193453.github.io.git
+  repository: git@github.com:LR193453/LR193453.github.io.git
   branch: master
+  
+symbols_count_time:
+  symbols: true                # 文章字数统计
+  time: true                   # 文章阅读时长
+  total_symbols: true          # 站点总字数统计
+  total_time: true             # 站点总阅读时长
+  exclude_codeblock: false     # 排除代码字数统计
